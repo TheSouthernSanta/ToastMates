@@ -1,11 +1,17 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div class="col-sm-24">
-  <div class="col-sm-5">
-    <div class="col-sm-2">
-    <a><img src="../assets/Logo.png" alt="Logo"/></a>
-  </div>
-    <h1>{{title}}</h1>
-  </div>
+<div class="col-sm-24" id="nav-bar">
+  <div class="col-sm-6">
+      <div class="clearfix">
+        <div class="box col-sm-3">
+          <img id="logo" src="../assets/Logo.png" alt="Logo"/>
+        </div>
+        <div class="box col-sm-3">
+          <h1 class="title">{{title}}</h1>
+        </div>
+      </div>
+      <div class="col-sm-6 rightFloat">
+          <p>"Committed to toast every day"</p>
+        </div>
+   </div>
 </div>
 <router-outlet></router-outlet>
 <a href="/submission" class="btn btn-secondary">submission</a>
