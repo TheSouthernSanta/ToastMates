@@ -5,6 +5,11 @@ h1 {
 
 #totdDiv {
     padding: 10px;
-    align-self: left;
-    width: 20cm;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
 }

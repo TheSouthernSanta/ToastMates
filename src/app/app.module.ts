@@ -12,6 +12,14 @@ const routes: Routes = [
   {
     path: 'submission',
     component:  SubmissionComponent
+  },
+  {
+    path: 'index',
+    component: ToastlistComponent
+  },
+  {
+    path: '',
+    component: ToastlistComponent
   }
 ];
 @NgModule({
