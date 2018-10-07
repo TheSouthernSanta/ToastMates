@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { SubmissionComponent } from './submission/submission.component';
 import { Routes, RouterModule } from '@angular/router';
 import { TotdComponent } from './totd/totd.component';
+import { ToastlistComponent } from './toastlist/toastlist.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     SubmissionComponent,
-    TotdComponent
+    TotdComponent,
+    ToastlistComponent
   ],
   imports: [
     BrowserModule,
