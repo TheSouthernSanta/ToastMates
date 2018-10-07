@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SubmissionComponent } from './submission/submission.component';
 import { Routes, RouterModule } from '@angular/router';
+import { TotdComponent } from './totd/totd.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    SubmissionComponent
+    SubmissionComponent,
+    TotdComponent
   ],
   imports: [
     BrowserModule,

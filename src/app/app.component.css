@@ -1,0 +1,33 @@
+.logo{
+  float:left;
+  overflow:auto;
+}
+
+img{
+  width: 100%;
+}
+
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+.navBar {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box25 {
+  float: left;
+  width: 25%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  /* top | right | bottom | left */
+  padding: 1% 5% 1%; /* if you want space between the images */
+}
+.box50 {
+  float: left;
+  width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 1% 25% 1%; /* if you want space between the images */
+}
