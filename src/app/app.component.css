@@ -13,21 +13,34 @@ img{
   height: 50%;
 }
 
-.navBar {
-}
-
 * {
   box-sizing: border-box;
 }
 
 .box25 {
   float: left;
-  width: 25%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  width: 25%; 
   /* top | right | bottom | left */
-  padding: 1% 5% 1%; /* if you want space between the images */
+  padding: 1% 5% 1%;
 }
 .box50 {
   float: left;
-  width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
-  padding: 1% 25% 1%; /* if you want space between the images */
+  width: 50%; 
+  padding: 1% 25% 1%; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  display: inline-block;
+  text-align:  center;
+  text-decoration:none;
+  
+  padding:14px 16px;
 }
