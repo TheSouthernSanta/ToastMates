@@ -1,0 +1,10 @@
+h1 {
+    vertical-align: center;
+    text-align: center;
+}
+
+#totdDiv {
+    padding: 10px;
+    align-self: left;
+    width: 20cm;
+}
