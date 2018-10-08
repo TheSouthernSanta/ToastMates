@@ -1,5 +1,5 @@
 .sidediv{
-    max-width: 5cm;
+    max-width: 7cm;
 }
 
 .leftside{
@@ -11,10 +11,11 @@
 }
 
 .contentdiv{
-    float: center;
+    float: left;
 }
 
 .container {
     height: 100%;
-    width: 100%;
+    min-width: 100%;
+    align-self: stretch;
   }
