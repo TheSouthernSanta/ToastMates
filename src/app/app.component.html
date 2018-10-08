@@ -1,12 +1,8 @@
 <!--Nav Bar-->
 <div class="col-sm-24 navbar">
   <!--Title and Logo-->
-  <table>
-    <colgroup></colgroup>
-  </table>
-
   <div class="box25">
-    <div class="logo">
+    <div class="logo" onclick="location.href=<app-app></app-app>;">
       <img src="../assets/Logo.png" alt="Logo" />
     </div>
     <div class=" title">
@@ -15,18 +11,21 @@
   </div>
   <!--End of title and logo-->
   <div class="box50">
-    <h4>Serious about toast</h4>
-    <a href="/submission" class="btn btn-outline-secondary">Submit Your Toast</a>
+    <h5>Got an new combo?</h5>
+    <a href="/submission" class="btn btn-outline-secondary">Click here!</a>
   </div>
-  <div class="box25 menuBtns">
+  <div class="box25 menuBtns"> 
+      <h6>Serious about toast</h6>
     <div class="btn-group" role="group" style="margin:auto;">
-      <ul>
-        <li><a href="" class="btn btn-outline-secondary" role="button">Reviews</a></li>
-        <li><a href="" class="btn btn-outline-secondary" role="button">About us</a></li>
+      <ul class="navbarbtn">
+        <li class="navbarbtn"><a href="" class="btn btn-outline-secondary navbarbtn" role="button">Reviews</a></li>
+        <li class="navbarbtn"><a href="" class="btn btn-outline-secondary navbarbtn" role="button">About us</a></li>
       </ul>
     </div>
   </div>
 </div>
+<hr/>
+
 <!--End of Nav Bar-->
 <!--<br />
 <br />
@@ -34,6 +33,4 @@
 <br />
 <br />
 <br />-->
-<hr />
-
 <router-outlet></router-outlet>

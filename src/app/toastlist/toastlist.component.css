@@ -1,29 +1,34 @@
-.sidediv {
-  max-width: 7cm;
+.content{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0.5rem 1rem;
 }
-
-.leftside {
+.box25 {
   float: left;
-  border: solid;
-  margin: 5px;
-}
-
-.rightside {
-  float: right;
-  border: solid;
   width: 25%;
-  margin:5px;
+  height: auto;
+  padding: 1% 3% 1%;
+  display: inline;
 }
-
-.contentdiv {
+.box50 {
   float: left;
   width: 50%;
-  border: solid;
-  margin: 5px;
+  height: 100px;
+  padding: 1% 3% 1%;
+  text-align: center;
+  display: inline;
 }
 
-.container {
-  height: 100%;
-  min-width: 100%;
-  align-self: stretch;
+hr{
+  clear:both;
+  /* display: none; */  
+}
+
+* {
+  box-sizing: border-box;
+}
+.toastlist{
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgrey;
 }

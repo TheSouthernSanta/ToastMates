@@ -1,3 +1,4 @@
+/*=================Nav Bar=================*/
 .logo{
   float:left;
   overflow:auto;
@@ -12,17 +13,41 @@ img{
   width: 100%;
   padding:5px;
 }
-
-* {
-  box-sizing: border-box;
+.menuBtns {
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
+ul.navbarbtn {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li.navbarbtn{
+  float: left;
+}
+li a.navbarbtn{
+  display: inline-block;
+  text-align:  center;
+  text-decoration:none;
+}
+
+/*=================Content=================*/
+.content{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0.5rem 1rem;
+}
 .box25 {
   float: left;
   width: 25%;
-  height: 100px;
+  height: auto;
   padding: 1% 3% 1%;
-  display: inline
+  display: inline;
 }
 .box50 {
   float: left;
@@ -30,34 +55,19 @@ img{
   height: 100px;
   padding: 1% 3% 1%;
   text-align: center;
-  display: inline
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li{
-  float: left;
-}
-li a{
-  display: inline-block;
-  text-align:  center;
-  text-decoration:none;
-  
-  padding:14px 16px;
+  display: inline;
 }
 
 hr{
   clear:both;
+  /* display: none; */  
 }
 
-.navbar {
-  display: flex;
-  flex-wrap: nowrap;
+* {
+  box-sizing: border-box;
 }
-
-.menuBtns {
-  text-align: center;
+.toastlist{
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgrey;
 }
