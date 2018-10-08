@@ -1,21 +1,29 @@
-.sidediv{
-    max-width: 7cm;
+.sidediv {
+  max-width: 7cm;
 }
 
-.leftside{
-    float: left;
+.leftside {
+  float: left;
+  border: solid;
+  margin: 5px;
 }
 
-.rightside{
-    float: right;
+.rightside {
+  float: right;
+  border: solid;
+  width: 25%;
+  margin:5px;
 }
 
-.contentdiv{
-    float: left;
+.contentdiv {
+  float: left;
+  width: 50%;
+  border: solid;
+  margin: 5px;
 }
 
 .container {
-    height: 100%;
-    min-width: 100%;
-    align-self: stretch;
-  }
+  height: 100%;
+  min-width: 100%;
+  align-self: stretch;
+}
