@@ -41,6 +41,7 @@ li a.navbarbtn{
   display: flex;
   flex-wrap: nowrap;
   padding: 0.5rem 1rem;
+  height: 100%;
 }
 .box25 {
   float: left;

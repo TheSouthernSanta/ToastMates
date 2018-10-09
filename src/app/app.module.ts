@@ -11,6 +11,10 @@ import { RecenttoastComponent } from './recenttoast/recenttoast.component';
 
 const routes: Routes = [
   {
+    path: 'details',
+    component: ToastdetailsComponent
+  },
+  {
     path: 'submission',
     component:  SubmissionComponent
   },
