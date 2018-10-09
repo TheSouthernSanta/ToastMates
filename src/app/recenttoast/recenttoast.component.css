@@ -1,0 +1,19 @@
+img {
+    height: auto;
+    max-width: 100%;
+}
+.box33 {
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    text-align: center;
+    display: inline;
+}
+  
+.box66 {
+    float: left;
+    width: 66.66%;
+    height: 100px;
+    text-align: center;
+    display: inline;
+}

@@ -8,6 +8,8 @@ import { TotdComponent } from './totd/totd.component';
 import { ToastlistComponent } from './toastlist/toastlist.component';
 import { ToastdetailsComponent } from './toastdetails/toastdetails.component';
 import { RecenttoastComponent } from './recenttoast/recenttoast.component';
+import { ReviewsComponent } from './reviews/reviews.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
@@ -23,6 +25,14 @@ const routes: Routes = [
     component: ToastlistComponent
   },
   {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
+    path: 'reviews',
+    component: ReviewsComponent
+  },
+  {
     path: '',
     component: ToastlistComponent
   }
@@ -34,7 +44,9 @@ const routes: Routes = [
     TotdComponent,
     ToastlistComponent,
     ToastdetailsComponent,
-    RecenttoastComponent
+    RecenttoastComponent,
+    ReviewsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
